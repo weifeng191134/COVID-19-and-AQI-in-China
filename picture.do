@@ -6,6 +6,9 @@
 ** Stata Code:1
 **====================================================================================
 **第一步 设置相对时间
+set more off
+capture log close
+log using picture_log_files.log, replace
 
 cd D:\jianguoyun\我的坚果云\工作数据\
 ! del *.png
